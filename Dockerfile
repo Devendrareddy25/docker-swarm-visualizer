@@ -24,7 +24,7 @@ RUN npm run dist
 # CTX_ROOT : Context root of the application. Default is /
 ENV MS=1000 CTX_ROOT=/
 
-EXPOSE 8080
+EXPOSE 8081
 
 HEALTHCHECK CMD node /app/healthcheck.js || exit 1
 
