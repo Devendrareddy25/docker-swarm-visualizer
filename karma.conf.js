@@ -7,7 +7,7 @@ module.exports = function(config) {
     files: [
       'test/loadtests.js'
     ],
-    port: 8080,
+    port: 8081,
     captureTimeout: 60000,
     frameworks: ['phantomjs-shim', 'mocha', 'chai'],
     client: {
