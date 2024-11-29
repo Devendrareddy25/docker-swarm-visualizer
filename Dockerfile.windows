@@ -17,7 +17,7 @@ RUN npm run dist
 # Number of milliseconds between polling requests. Default is 200.
 ENV MS 200
 
-EXPOSE 8080
+EXPOSE 8081
 
 HEALTHCHECK CMD node healthcheck.js || exit 1
 
